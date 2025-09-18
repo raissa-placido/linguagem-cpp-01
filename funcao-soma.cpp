@@ -1,14 +1,14 @@
 #include <iostream>
 
-int soma( int a, int b){
-    int r = a + b;
+long long soma( long long a, long long b){
+    long long r = a + b;
     return r;
 }
 
 int main(){
-    int a,b;
+    long long a,b;
     std::cin >> a >> b;
-    int s = soma(a,b);
+    long long s = soma(a,b);
     std::cout << s << std::endl;
     return 0;
 }
